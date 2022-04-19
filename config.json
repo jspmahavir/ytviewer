@@ -1,0 +1,26 @@
+{
+    "http_api": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 5000
+    },
+    "database": false,
+    "views": 1,
+    "minimum": 85.0,
+    "maximum": 95.0,
+    "proxy": {
+        "category": "p",
+        "proxy_type": "http",
+        "filename": "proxy_list_single.csv",
+        "authentication": false,
+        "proxy_api": false,
+        "refresh": 5.0
+    },
+    "background": false,
+    "bandwidth": false,
+    "playback_speed": 1,
+    "max_threads": 1,
+    "min_threads": 1,
+    "logAPI": "http://192.168.1.15/yt-admin/proxyapi/saveYTStatistics",
+    "CheckAPI": "http://192.168.1.15/yt-admin/proxyapi/checkYTGeneratedIP"
+}

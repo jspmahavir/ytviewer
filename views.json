@@ -1,0 +1,90 @@
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 11:20:03] {"search_text": "Company Profile | Ashapura Softech Pvt Ltd ::::Company Profile | Ashapura Softech Pvt Ltd :::: OQij6GB2FA8", "unique_reference_id": "62036a5aced104572719ec95", "proxy": [{"ip": "209.205.197.90", "port": 10443, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}, {"ip": "209.205.197.90", "port": 10443, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}]}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 11:20:04] <concurrent.futures.thread.ThreadPoolExecutor object at 0x7f5a33f2ea20>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:07:02] {"search_text": "Company Profile | Ashapura Softech Pvt Ltd ::::Company Profile | Ashapura Softech Pvt Ltd :::: OQij6GB2FA8", "unique_reference_id": "62036a5aced104572719ec95", "proxy": [{"ip": "209.205.197.90", "port": 10445, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}, {"ip": "209.205.197.90", "port": 10445, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}]}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:07:02] <concurrent.futures.thread.ThreadPoolExecutor object at 0x7f66811589e8>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:08:41] {"search_text": "Company Profile | Ashapura Softech Pvt Ltd ::::Company Profile | Ashapura Softech Pvt Ltd :::: OQij6GB2FA8", "unique_reference_id": "62036a5aced104572719ec95", "proxy": [{"ip": "209.205.197.90", "port": 10445, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}, {"ip": "209.205.197.90", "port": 10445, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}]}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:08:42] <concurrent.futures.thread.ThreadPoolExecutor object at 0x7f378f8dc7f0>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:09:47] {"search_text": "Company Profile | Ashapura Softech Pvt Ltd ::::Company Profile | Ashapura Softech Pvt Ltd :::: OQij6GB2FA8", "unique_reference_id": "62036a5aced104572719ec95", "proxy": [{"ip": "209.205.197.90", "port": 10445, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}, {"ip": "209.205.197.90", "port": 10445, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}]}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:09:48] <concurrent.futures.thread.ThreadPoolExecutor object at 0x7fcec9929588>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:11:06] {"search_text": "Company Profile | Ashapura Softech Pvt Ltd ::::Company Profile | Ashapura Softech Pvt Ltd :::: OQij6GB2FA8", "unique_reference_id": "62036a5aced104572719ec95", "proxy": [{"ip": "209.205.197.90", "port": 10445, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}, {"ip": "209.205.197.90", "port": 10445, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}]}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:11:06] <concurrent.futures.thread.ThreadPoolExecutor object at 0x7fafd3c29668>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:11:06] {"agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36", "proxy": "ryanturner-country-US:9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1@209.205.197.90:10445", "proxy_ip": "209.205.197.90", "proxy_port": "10445", "proxy_type": "http", "status": 200, "ytvideo_id": "OQij6GB2FA8", "created_date": "04/03/2022 14:11:06", "updated_date": "04/03/2022 14:11:06", "status_text": "In-Progress"}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:12:21] {"search_text": "Company Profile | Ashapura Softech Pvt Ltd ::::Company Profile | Ashapura Softech Pvt Ltd :::: OQij6GB2FA8", "unique_reference_id": "62036a5aced104572719ec95", "proxy": [{"ip": "209.205.197.90", "port": 10443, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}, {"ip": "209.205.197.90", "port": 10443, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}]}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:12:21] <concurrent.futures.thread.ThreadPoolExecutor object at 0x7fafd2bcd9b0>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:12:21] {"agent": "Mozilla/5.0 (X11; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36", "proxy": "ryanturner-country-US:9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1@209.205.197.90:10443", "proxy_ip": "209.205.197.90", "proxy_port": "10443", "proxy_type": "http", "status": 200, "ytvideo_id": "OQij6GB2FA8", "created_date": "04/03/2022 14:12:21", "updated_date": "04/03/2022 14:12:21", "status_text": "In-Progress"}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:12:24] <concurrent.futures.thread.ThreadPoolExecutor object at 0x7fafd2bcda58>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:12:24] {"agent": "Mozilla/5.0 (X11; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36", "proxy": "ryanturner-country-US:9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1@209.205.197.90:10443", "proxy_ip": "209.205.197.90", "proxy_port": "10443", "proxy_type": "http", "status": 200, "ytvideo_id": "OQij6GB2FA8", "created_date": "04/03/2022 14:12:24", "updated_date": "04/03/2022 14:12:24", "status_text": "In-Progress"}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:13:28] <selenium.webdriver.chrome.webdriver.WebDriver (session="eaea573186497e6c26c9c484ce64a23b")>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:14:36] View Added: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:14:37] <selenium.webdriver.chrome.webdriver.WebDriver (session="45821f784cc64ab7757ce09c4e8ee389")>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:14:37] {"agent": "Mozilla/5.0 (X11; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36", "proxy": "ryanturner-country-US:9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1@209.205.197.90:10443", "proxy_ip": "209.205.197.90", "proxy_port": "10443", "proxy_type": "http", "status": 200, "ytvideo_id": "OQij6GB2FA8", "created_date": "04/03/2022 14:12:24", "updated_date": "04/03/2022 14:14:36", "status_text": "success", "view_count": 1, "reason": "View count added"}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:14:37] {"agent": "Mozilla/5.0 (X11; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36", "proxy": "ryanturner-country-US:9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1@209.205.197.90:10443", "proxy_ip": "209.205.197.90", "proxy_port": "10443", "proxy_type": "http", "status": 200, "ytvideo_id": "OQij6GB2FA8", "created_date": "04/03/2022 14:12:24", "updated_date": "04/03/2022 14:14:36", "status_text": "success", "view_count": 1, "reason": "View count added"}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:16:13] {"search_text": "Company Profile | Ashapura Softech Pvt Ltd ::::Company Profile | Ashapura Softech Pvt Ltd :::: OQij6GB2FA8", "unique_reference_id": "62036a5aced104572719ec95", "proxy": [{"ip": "209.205.197.90", "port": 10443, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}, {"ip": "209.205.197.90", "port": 10443, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}]}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:16:13] <concurrent.futures.thread.ThreadPoolExecutor object at 0x7fafd1b56390>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:16:13] {"agent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36", "proxy": "ryanturner-country-US:9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1@209.205.197.90:10443", "proxy_ip": "209.205.197.90", "proxy_port": "10443", "proxy_type": "http", "status": 200, "ytvideo_id": "OQij6GB2FA8", "created_date": "04/03/2022 14:16:13", "updated_date": "04/03/2022 14:16:13", "status_text": "In-Progress"}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:16:25] {"search_text": "Company Profile | Ashapura Softech Pvt Ltd ::::Company Profile | Ashapura Softech Pvt Ltd :::: OQij6GB2FA8", "unique_reference_id": "62036a5aced104572719ec95", "proxy": [{"ip": "209.205.197.90", "port": 10443, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}, {"ip": "209.205.197.90", "port": 10443, "user": "ryanturner-country-US", "pass": "9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1"}]}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:16:25] <concurrent.futures.thread.ThreadPoolExecutor object at 0x7fd1bb37a390>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:16:25] {"agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36", "proxy": "ryanturner-country-US:9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1@209.205.197.90:10443", "proxy_ip": "209.205.197.90", "proxy_port": "10443", "proxy_type": "http", "status": 200, "ytvideo_id": "OQij6GB2FA8", "created_date": "04/03/2022 14:16:25", "updated_date": "04/03/2022 14:16:25", "status_text": "In-Progress"}
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:19:00] <selenium.webdriver.chrome.webdriver.WebDriver (session="99f2452e507a75589cf698b8d41ad758")>
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:19:48] View Added: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Date Time: [92m[04-Mar-2022 14:19:48] {"agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36", "proxy": "ryanturner-country-US:9d60c3-eb6dc2-49ca5d-0f16ca-6a2bb1@209.205.197.90:10443", "proxy_ip": "209.205.197.90", "proxy_port": "10443", "proxy_type": "http", "status": 200, "ytvideo_id": "OQij6GB2FA8", "created_date": "04/03/2022 14:16:25", "updated_date": "04/03/2022 14:19:48", "status_text": "success", "view_count": 1, "reason": "View count added"}
+---------------------------------------------------------
