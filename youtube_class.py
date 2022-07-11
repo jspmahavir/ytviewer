@@ -40,6 +40,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from youtube_transcript_api import YouTubeTranscriptApi
+from pytube import YouTube
 
 import website
 from config import create_config
@@ -488,7 +489,7 @@ class coreLogic:
 
     def get_driver(self, path, proxy, proxy_type, pluginfile):
         options = webdriver.ChromeOptions()
-        options.headless = True
+        # options.headless = True
         # options.add_argument("--headless")
         options.add_argument(f"--window-size={choice(self.VIEWPORT)}")
         options.add_argument("--log-level=3")
@@ -597,8 +598,8 @@ class coreLogic:
         # cpath = '/root/.wdm/drivers/chromedriver/linux64/98.0.4758.80/chromedriver'
         # self.driver = webdriver.Chrome(executable_path=cpath, options=chrome_options)
         # self.driver = webdriver.Chrome(executable_path=cpath, options=options)
-        # self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=options)
-        self.driver = webdriver.Chrome(executable_path=path, options=options)
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=options)
+        # self.driver = webdriver.Chrome(executable_path=path, options=options)
 
 
     def personalization(self):
@@ -986,7 +987,7 @@ class coreLogic:
                             "https": f"{proxy_type}://{proxy}",
                         }
                         location = requests.get(
-                            "https://pro.ip-api.com/json/?key=tUvpEtFdmSngfrV", proxies=proxy_dict, timeout=180).json()
+                            "https://pro.ip-api.com/json/?key=bvanql2zZLPdKzF", proxies=proxy_dict, timeout=180).json()
                         params = {
                             "latitude": location['lat'],
                             "longitude": location['lon'],
@@ -1300,17 +1301,17 @@ class coreLogic:
                 "https": f"{self.proxy_type}://{self.proxy_list[lPos]}",
             }
             # Get Location data
-            location = requests.get("https://pro.ip-api.com/json/?key=tUvpEtFdmSngfrV", proxies=proxy_dict, timeout=180).json()
+            location = requests.get("https://pro.ip-api.com/json/?key=bvanql2zZLPdKzF", proxies=proxy_dict, timeout=180).json()
         except:
             pass
-        
+
         # Check ProxyIP / Original IP for Unique Behaviour
-        if(location):
+        if str(location['status']) != 'fail':
             getData = {"reference_id": self.postData['unique_reference_id'], "generated_ip": location['query']}
             response = requests.get(self.statisticsCheckAPI, getData).json()
-        
-        return response
-           
+            return response
+        else:
+            return location
 
     def main(self):
         global start_time
@@ -1325,16 +1326,22 @@ class coreLogic:
         # print("pool_number = ",pool_number)
         pool_number = [2] # static condition
 
-        res = self.ipCheck()
-        
-        if(res):
-            if res['status'] == False:
-                self.logData = {
-                    "unique_reference_id": self.postData['unique_reference_id'],
-                    "status": 'error',
-                    "reason": "This IP and Proxy Already Used"
-                }
-                return
+        # res = self.ipCheck()
+        # if(res):
+        #     if res['status'] == False:
+        #         self.logData = {
+        #             "unique_reference_id": self.postData['unique_reference_id'],
+        #             "status": 'error',
+        #             "reason": "This IP and Proxy Already Used"
+        #         }
+        #         return
+        #     if res['status'] == 'fail':
+        #         self.logData = {
+        #             "unique_reference_id": self.postData['unique_reference_id'],
+        #             "status": 'error',
+        #             "reason": res['message']
+        #         }
+        #         pass
 
         with ThreadPoolExecutor(max_workers=threads) as executor:
             futures = [executor.submit(self.view_video, position)
@@ -1376,6 +1383,15 @@ class coreLogic:
                 sys.exit()
 
 if __name__ == '__main__':
+
+    
+    @app.route('/youtubeDesc', methods=['GET'])
+    def youtubeDesc():
+        video = YouTube("https://www.youtube.com/watch?v=o35Xi0h7880")
+        print (video.description)
+        customeRes = {'status': 'error','transcript': 'No Description were found'}
+        return jsonify(customeRes)
+
     @app.route('/transcript', methods=['GET'])
     def transcript():
         video_id = request.json["video_id"]
@@ -1385,6 +1401,7 @@ if __name__ == '__main__':
             res = ''
             responses = YouTubeTranscriptApi.get_transcript(video_id)
             print('\n'+"Video: "+"https://www.youtube.com/watch?v="+str(video_id)+'\n'+'\n'+"Captions:")
+            print(responses)
             for response in responses:
                 text = response['text']
                 res += " "+ text
@@ -1535,7 +1552,7 @@ if __name__ == '__main__':
             }
 
         headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
-        requests.post(cl.statisticsLogAPI, data=json.dumps(updateLog), headers=headers)
+        # requests.post(cl.statisticsLogAPI, data=json.dumps(updateLog), headers=headers)
         
         while len(cl.view) < cl.views:
             try:

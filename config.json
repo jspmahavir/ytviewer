@@ -21,6 +21,6 @@
     "playback_speed": 1,
     "max_threads": 1,
     "min_threads": 1,
-    "logAPI": "http://192.168.1.15/yt-admin/proxyapi/saveYTStatistics",
-    "CheckAPI": "http://192.168.1.15/yt-admin/proxyapi/checkYTGeneratedIP"
+    "logAPI": "https://cloudmas24.com/yt-admin/proxyapi/saveYTStatistics",
+    "CheckAPI": "https://cloudmas24.com/yt-admin/proxyapi/checkYTGeneratedIP"
 }
